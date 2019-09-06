@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+  <div style="display: none">
+    <include src="build/img/sprite.svg"></include>
+  </div>
+
+  <header class="header">
+    <div class="header__wrap">
+      <a class="header__logo-link" href="index.html">
+        <img class="header__logo-img" src="img/logo-black.png" alt="Логотип приюта" width="181" height="50">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">
+          <span class="visually-hidden">open menu</span>
+        </button>
+        <a class="main-nav__link" href="index.html">About the shelter</a>
+        <a class="main-nav__link main-nav__link--active"  href="friends.html">Our pets</a>
+        <a class="main-nav__link" href="#">To help the shelter</a>
+        <a class="main-nav__link" href="#">Contacts</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="cards">
+      <h2 class="cards__title">Our friends who <br> are looking for a house</h2>
+
+      <div class="cards__wrap">
+        <article class="cards__item">
+          <img class="cards__img" src="img/pets/pet-1.png" alt="Katrine">
+          <h3 class="cards__item-title">Katrine</h3>
+          <a class="btn cards__item-btn" href="#">Learn More</a>
+        </article>
+
+        <article class="cards__item">
+          <img class="cards__img" src="img/pets/pet-4.png" alt="Jennifer">
+          <h3 class="cards__item-title">Jennifer</h3>
+          <a class="btn cards__item-btn" href="#">Learn More</a>
+        </article>
+
+        <article class="cards__item">
+          <img class="cards__img" src="img/pets/pet-5.png" alt="Woody">
+          <h3 class="cards__item-title">Woody</h3>
+          <a class="btn cards__item-btn" href="#">Learn More</a>
+        </article>
+
+        <article class="cards__item">
+          <img class="cards__img" src="img/pets/pet-2.jpg" alt="Sophia">
+          <h3 class="cards__item-title">Sophia</h3>
+          <a class="btn cards__item-btn" href="#">Learn More</a>
+        </article>
+
+        <article class="cards__item">
+          <img class="cards__img" src="img/pets/pet-7.png" alt="Timmy">
+          <h3 class="cards__item-title">Timmy</h3>
+          <a class="btn cards__item-btn" href="#">Learn More</a>
+        </article>
+
+        <article class="cards__item">
+          <img class="cards__img" src="img/pets/pet-3.jpg" alt="Charly">
+          <h3 class="cards__item-title">Charly</h3>
+          <a class="btn cards__item-btn" href="#">Learn More</a>
+        </article>
+
+        <article class="cards__item">
+          <img class="cards__img" src="img/pets/pet-6.png" alt="Scarlett">
+          <h3 class="cards__item-title">Scarlett</h3>
+          <a class="btn cards__item-btn" href="#">Learn More</a>
+        </article>
+
+        <article class="cards__item">
+          <img class="cards__img" src="img/pets/pet-8.png" alt="Freddie">
+          <h3 class="cards__item-title">Freddie</h3>
+          <a class="btn cards__item-btn" href="#">Learn More</a>
+        </article>
+
+      </div>
+
+      <ul class="cards__pagination pagination">
+        <li class="pagination__item"><a class="pagination__link pagination__link--active" href="#">1</a></li>
+        <li class="pagination__item"><a class="pagination__link" href="#">2</a></li>
+        <li class="pagination__item"><a class="pagination__link" href="#">3</a></li>
+        <li class="pagination__item"><span class="pagination__three-dots"></span></li>
+        <li class="pagination__item"><a class="pagination__link" href="#">10</a></li>
+      </ul>
+
+    </section>
+
+  <footer class="footer">
+    <div class="footer__wrap">
+      <section class="footer__question">
+        <h2 class="footer__title">For questions and suggestions</h2>
+        <ul class="footer__list">
+
+          <li class="footer__item">
+            <a class="footer__link" href="#">
+              <svg class="footer__link-img" width="40" height="26">
+                <use xlink:href="#envelope"></use>
+              </svg>
+              <span footer__link-text>email@shelter.com</span>
+            </a>
+          </li>
+
+          <li class="footer__item">
+            <a class="footer__link" href="#">
+              <svg class="footer__link-img" width="40" height="32">
+                <use xlink:href="#telephone"></use>
+              </svg>
+              <span footer__link-text>+13 674 567 75 54</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="footer__address">
+        <h2 class="footer__title">We are waiting for your visit</h2>
+        <ul class="footer__list">
+
+          <li class="footer__item">
+            <a class="footer__link" href="#">
+              <svg class="footer__link-img" width="40" height="40">
+                <use xlink:href="#pin"></use>
+              </svg>
+              <span footer__link-text>Boston, Central Street, 1st <br> (Entrance from the store)</span>
+            </a>
+          </li>
+
+          <li class="footer__item">
+            <a class="footer__link" href="#">
+              <svg class="footer__link-img" width="40" height="40">
+                <use xlink:href="#pin"></use>
+              </svg>
+              <span footer__link-text>London, South Park, 18st</span>
+            </a>
+          </li>
+        </ul>
+
+      </section>
+
+    </div>
+  </footer>
+
+</body>
+</html>

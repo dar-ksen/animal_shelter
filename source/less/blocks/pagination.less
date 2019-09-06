@@ -1,0 +1,43 @@
+.pagination {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0;
+}
+
+.pagination__item {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.pagination__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+
+  color: #292929;
+  border: 2px solid #f1cdb3;
+  border-radius: 50%;
+
+  font-size: 20px;
+
+  &--active {
+    background-color: #f1cdb3;
+  }
+
+  &:hover {
+    background-color: #f1cdb3;
+  }
+}
+
+.pagination__three-dots {
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  background: url("../img/three-dots.png") center center no-repeat;
+}

@@ -1,0 +1,31 @@
+.header {
+  background: #f6f6f6;
+
+  &--main {
+    background: #2b2625 url("../img/header_background.jpg") center 0;
+  }
+}
+
+.header__wrap {
+  box-sizing: border-box;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header__logo-link {
+  padding: 50px 0;
+
+  &:hover,
+  &:focus {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.5;
+  }
+}

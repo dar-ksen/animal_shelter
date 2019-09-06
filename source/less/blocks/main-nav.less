@@ -1,0 +1,46 @@
+.main-nav--main .main-nav__link {
+  color: #cdcdcd;
+}
+
+.main-nav__toggle {
+  position: absolute;
+  display: none;
+}
+
+.main-nav__link {
+  position: relative;
+  color: @black;
+  margin-left: 40px;
+  outline: none;
+
+  &:hover,
+  &:focus {
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background-color: #f1cdb3;
+      bottom: -8px;
+      border-radius: 2px;
+    }
+  }
+
+  &:active {
+    opacity: 0.5;
+  }
+}
+
+.main-nav__link--active {
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: #f1cdb3;
+    bottom: -8px;
+    border-radius: 2px;
+  }
+}

@@ -1,0 +1,70 @@
+.footer {
+  padding: 70px 0 50px;
+  background: #2b2625 url("../img/footer_background.jpg") center 0;
+}
+
+.footer__wrap {
+  box-sizing: border-box;
+  padding: 0 15px;
+  display: flex;
+
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer__question {
+  width: 300px;
+  margin-right: 150px;
+}
+
+.footer__address {
+  width: 300px;
+}
+
+.footer__title {
+  color: #ffffff;
+  font-size: 35px;
+  line-height: 45px;
+  margin: 0;
+  font-family: "Georgia", sans-serif;
+}
+
+.footer__list {
+  padding: 0;
+}
+
+.footer__item {
+  height: 60px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.footer__link {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: #f1cdb3;
+
+  &:hover,
+  &:focus {
+    color: @white;
+
+    & .footer__link-img {
+      fill: @white;
+    }
+  }
+
+  &:active {
+    color: fade(@white, 30%);
+
+    & .footer__link-img {
+      fill: fade(@white, 30%);
+    }
+  }
+}
+
+.footer__link-img {
+  fill: #f1cdb3;
+  margin-right: 20px;
+}

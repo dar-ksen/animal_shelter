@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+  <div style="display: none">
+    <include src="build/img/sprite.svg"></include>
+  </div>
+
+  <header class="header header--main">
+    <div class="header__wrap">
+      <a class="header__logo-link" href="index.html">
+        <img class="header__logo-img" src="img/logo.png" alt="Логотип приюта" width="181" height="50">
+      </a>
+      <nav class="main-nav main-nav--main">
+        <button class="main-nav__toggle" type="button">
+          <span class="visually-hidden">open menu</span>
+        </button>
+        <a class="main-nav__link main-nav__link--active" href="#">About the shelter</a>
+        <a class="main-nav__link" href="friends.html">Our pets</a>
+        <a class="main-nav__link" href="#">To help the shelter</a>
+        <a class="main-nav__link" href="#">Contacts</a>
+      </nav>
+    </div>
+
+    <section class="sub-header">
+      <div class="sub-header__wrap">
+        <h1 class="sub-header__title">Not only people need a house</h1>
+        <div class="sub-header__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida est in porttitor  porttitor. Duis sodales elementum ipsum, vehicula condimentum erat fringilla et.</div>
+        <a class="btn sub-header__btn" href="#">Make a friend</a>
+      </div>
+    </section>
+  </header>
+
+  <main>
+
+
+    <section class="about">
+      <img class="about__img" src="img/about_pets.png" alt="Друзья">
+      <div class="about__wrap">
+        <h2 class="about__title">About the shelter “Cozy House”</h2>
+        <p class="about__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur blandit condimentum. Proin accumsan lorem vel gravida fringilla. Suspendisse potenti. Mauris ut pulvinar nunc.
+        </p>
+
+        <p class="about__text">
+          Donec consectetur, diam in porta tempus, urna ligula vestibulum nibh, ac ornare felis justo nec leo. Praesent mattis nibh quis
+          ultrices pharetra. Morbi tempus at ante sit amet tristique.
+          Maecenas dignissim justo orci, in laoreet urna dapibus nec. Praesent quis tortor faucibus, tristique ante vitae, dignissim
+          lorem. Sed at ligula et sem mattis gravida ac vel erat.
+        </p>
+      </div>
+    </section>
+
+    <section class="cards">
+      <h2 class="cards__title">Our friends who <br> are looking for a house</h2>
+
+      <div class="cards__slider slider">
+        <a class="slider__btn slider__btn--prev" href="#" aria-label="prev"></a>
+        <a class="slider__btn slider__btn--next" href="#" aria-label="next"></a>
+
+        <article class="cards__item">
+          <img class="cards__img" src="img/pets/pet-1.png" alt="Katrine">
+          <h3 class="cards__item-title">Katrine</h3>
+          <a class="btn cards__item-btn" href="#">Learn More</a>
+        </article>
+
+        <article class="cards__item">
+          <img class="cards__img" src="img/pets/pet-4.png" alt="Jennifer">
+          <h3 class="cards__item-title">Jennifer</h3>
+          <a class="btn cards__item-btn" href="#">Learn More</a>
+        </article>
+
+        <article class="cards__item">
+          <img class="cards__img" src="img/pets/pet-5.png" alt="Woody">
+          <h3 class="cards__item-title">Woody</h3>
+          <a class="btn cards__item-btn" href="#">Learn More</a>
+        </article>
+
+      </div>
+      <a class="btn cards__btn" href="#">Get to know the rest</a>
+    </section>
+
+    <section class="help">
+      <h2 class="help__title">Than you can help <br> our shelter</h2>
+      <div class="help__wrap">
+
+        <a class="help__link" href="#">
+          <svg class="help__link-img" width="45" height="57">
+            <use xlink:href="#cat-food"></use>
+          </svg>
+          <span class="help__text">Pet food</span>
+        </a>
+
+        <a class="help__link" href="#">
+          <svg class="help__link-img" width="65" height="65">
+            <use xlink:href="#ambulance"></use>
+          </svg>
+          <span class="help__text">Transportation</span>
+        </a>
+
+        <a class="help__link" href="#">
+          <svg class="help__link-img" width="58" height="58">
+            <use xlink:href="#ball"></use>
+          </svg>
+          <span class="help__text">Toys</span>
+        </a>
+
+        <a class="help__link" href="#">
+          <svg class="help__link-img" width="58" height="55">
+            <use xlink:href="#bowl"></use>
+          </svg>
+          <span class="help__text">Bowls and cups</span>
+        </a>
+
+        <a class="help__link" href="#">
+          <svg class="help__link-img" width="50" height="58">
+            <use xlink:href="#shampoo"></use>
+          </svg>
+          <span class="help__text">Shampoos</span>
+        </a>
+
+        <a class="help__link" href="#">
+          <svg class="help__link-img" width="64" height="57">
+            <use xlink:href="#pills"></use>
+          </svg>
+          <span class="help__text">Vitamins</span>
+        </a>
+
+        <a class="help__link" href="#">
+          <svg class="help__link-img" width="58" height="58">
+            <use xlink:href="#syringe"></use>
+          </svg>
+          <span class="help__text">Medicines</span>
+        </a>
+
+        <a class="help__link" href="#">
+          <svg class="help__link-img" width="65" height="57">
+            <use xlink:href="#leash"></use>
+          </svg>
+          <span class="help__text">Collars / leashes</span>
+        </a>
+
+        <a class="help__link" href="#">
+          <svg class="help__link-img" width="54" height="57">
+            <use xlink:href="#cat"></use>
+          </svg>
+          <span class="help__text">Sleeping area</span>
+        </a>
+
+      </div>
+    </section>
+
+    <section class="donation">
+      <img class="donation__img" src="img/help_dog.png" alt="dog">
+      <div class="donation__wrap">
+        <h2 class="donation__title">In addition, you can make a donation</h2>
+        <p class="donation__subtitle">Name of the bank / Type of bank account</p>
+        <div class="donation__card">
+          <svg class="donation__card-img" width="30" height="24">
+            <use xlink:href="#credit-card"></use>
+          </svg>
+          <span class="donation__card-text">
+            8380 2880 8028 8791 7435
+          </span>
+        </div>
+        <p class="donation__text">Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__wrap">
+      <section class="footer__question">
+        <h2 class="footer__title">For questions and suggestions</h2>
+        <ul class="footer__list">
+
+          <li class="footer__item">
+            <a class="footer__link" href="#">
+              <svg class="footer__link-img" width="40" height="26">
+                <use xlink:href="#envelope"></use>
+              </svg>
+              <span footer__link-text>email@shelter.com</span>
+            </a>
+          </li>
+
+          <li class="footer__item">
+            <a class="footer__link" href="#">
+              <svg class="footer__link-img" width="40" height="32">
+                <use xlink:href="#telephone"></use>
+              </svg>
+              <span footer__link-text>+13 674 567 75 54</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="footer__address">
+        <h2 class="footer__title">We are waiting for your visit</h2>
+        <ul class="footer__list">
+
+          <li class="footer__item">
+            <a class="footer__link" href="#">
+              <svg class="footer__link-img" width="40" height="40">
+                <use xlink:href="#pin"></use>
+              </svg>
+              <span footer__link-text>Boston, Central Street, 1st <br> (Entrance from the store)</span>
+            </a>
+          </li>
+
+          <li class="footer__item">
+            <a class="footer__link" href="#">
+              <svg class="footer__link-img" width="40" height="40">
+                <use xlink:href="#pin"></use>
+              </svg>
+              <span footer__link-text>London, South Park, 18st</span>
+            </a>
+          </li>
+        </ul>
+
+      </section>
+
+    </div>
+  </footer>
+
+</body>
+</html>
